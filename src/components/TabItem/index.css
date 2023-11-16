@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.tabs-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.tab-btn {
+  color: #7b8794;
+  border: none;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.active-btn {
+  border-bottom: 2px solid #2563eb;
+  color: #2563eb;
+}
